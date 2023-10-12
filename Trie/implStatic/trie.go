@@ -77,15 +77,16 @@ func Delete(word string) {
 		return
 	}
 	cur := 1
+	pass[cur]--
 	for i := 0; i < len(word); i++ {
 		path := word[i] - 'a'
 		// 查找路径
-		pass[tree[cur][path]]--
-		if pass[tree[cur][path]] == 0 {
+		if pass[tree[cur][path]] == 1 {
 			tree[cur][path] = 0
 			return
 		}
 		cur = tree[cur][path]
+		pass[cur]--
 	}
 	end[cur]--
 }
