@@ -1,4 +1,4 @@
-package impArray
+package implArray
 
 /* 类的方式实现前缀树 以数组存储下级路径 */
 
@@ -36,8 +36,8 @@ func (t *Trie) Insert(word string) {
 			newNode := &TrieNode{}
 			node.nexts[path] = newNode
 		}
-		node.pass++
 		node = node.nexts[path]
+		node.pass++
 	}
 	node.end++
 }
@@ -115,6 +115,7 @@ func (t *Trie) Delete(word string) {
 		return
 	}
 	node := t.root
+	node.pass--
 	for i := 0; i < len(word); i++ {
 		// 下级路径索引
 		path := word[i] - 'a'
@@ -123,8 +124,8 @@ func (t *Trie) Delete(word string) {
 			node.nexts[path] = nil
 			return
 		}
-		node.pass--
 		node = node.nexts[path]
+		node.pass--
 	}
 	node.end--
 }
