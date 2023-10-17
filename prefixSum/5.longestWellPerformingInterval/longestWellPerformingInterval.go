@@ -1,4 +1,4 @@
-package longestWellPerformingInterval
+package __longestWellPerformingInterval
 
 func longestWPI(hours []int) int {
 	// 前缀和

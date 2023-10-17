@@ -1,4 +1,4 @@
-package implArray
+package __implArray
 
 /* 类的方式实现前缀树 以数组存储下级路径 */
 

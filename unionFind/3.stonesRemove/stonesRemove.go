@@ -1,4 +1,4 @@
-package stonesRemove
+package __stonesRemove
 
 /* leetcode 947.移除最多的同行或同列石头 */
 

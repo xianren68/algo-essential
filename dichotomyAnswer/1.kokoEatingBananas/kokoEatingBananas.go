@@ -1,4 +1,4 @@
-package kokoEatingBananas
+package __kokoEatingBananas
 
 func minEatingSpeed(piles []int, h int) int {
 	// 最小速度

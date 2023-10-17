@@ -1,4 +1,4 @@
-package implHash
+package __implHash
 
 /* 类的方式实现前缀树 以hash表存储下级路径 */
 

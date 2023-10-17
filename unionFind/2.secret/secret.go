@@ -1,4 +1,4 @@
-package secret
+package __secret
 
 import "sort"
 

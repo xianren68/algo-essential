@@ -1,4 +1,4 @@
-package wordSearchII
+package __wordSearchII
 
 const MAX = 10001
 

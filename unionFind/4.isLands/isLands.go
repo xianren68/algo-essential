@@ -1,4 +1,4 @@
-package isLands
+package __isLands
 
 /* leetcode 200.岛屿数量 */
 

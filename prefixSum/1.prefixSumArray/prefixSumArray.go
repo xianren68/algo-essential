@@ -1,4 +1,4 @@
-package prefixSumArray
+package __prefixSumArray
 
 type NumArray struct {
 	prefixSum []int

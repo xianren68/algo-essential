@@ -1,4 +1,4 @@
-package __luogu
+package luogu
 
 type unionFind struct {
 	father []int

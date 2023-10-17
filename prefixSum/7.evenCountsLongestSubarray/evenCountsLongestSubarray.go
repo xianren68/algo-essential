@@ -1,4 +1,4 @@
-package evenCountsLongestSubarray
+package __evenCountsLongestSubarray
 
 // 记录每个位置每个元音出现的次数的奇偶性
 // 然后以每个位置为底边寻找最长子串

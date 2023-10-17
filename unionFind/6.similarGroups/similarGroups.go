@@ -1,4 +1,4 @@
-package similarGroups
+package __similarGroups
 
 /* leetcode 117.相似字符串组 */
 

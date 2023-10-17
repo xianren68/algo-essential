@@ -1,4 +1,4 @@
-package countConsistentKeys
+package __countConsistentKeys
 
 import "strconv"
 

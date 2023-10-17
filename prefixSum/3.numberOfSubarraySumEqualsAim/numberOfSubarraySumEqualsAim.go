@@ -1,4 +1,4 @@
-package numberOfSubarraySumEqualsAim
+package __numberOfSubarraySumEqualsAim
 
 // 判断以每个数为边界时，可以达成目标的子数组有多少个
 func subarraySum(nums []int, k int) int {

@@ -1,4 +1,4 @@
-package makeSumDivisibleByP
+package __makeSumDivisibleByP
 
 func minSubarray(nums []int, p int) int {
 	// 求出总和
