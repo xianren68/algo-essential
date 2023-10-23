@@ -1,6 +1,8 @@
 # algo-essential
 b站左神算法，必备标签
 
+[链表](./linkList)
+
 [并查集](./unionFind)
 
 [前缀树](./Trie)
@@ -10,3 +12,5 @@ b站左神算法，必备标签
 [二分答案](./dichotomyAnswer)
 
 [洪水填充](./floodFill)
+
+[差分](./difference)
