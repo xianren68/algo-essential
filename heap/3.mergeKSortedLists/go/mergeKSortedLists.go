@@ -81,5 +81,6 @@ func mergeKLists(lists []*ListNode) *ListNode {
 			h.push(n.Next)
 		}
 	}
+	
 	return head
 }

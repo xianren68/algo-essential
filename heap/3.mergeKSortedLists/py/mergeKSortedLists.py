@@ -10,7 +10,7 @@ class Solution:
         # 全是空链表
         if not lists:
             return None
-        # 链表全入堆
+        # 链表全入堆"
         for i in lists:
             if i:
                 self.pushHeap(i)
