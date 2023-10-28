@@ -21,3 +21,5 @@ go.work
 
 .fleet/
 .idea/
+*.toml
+*.mod
